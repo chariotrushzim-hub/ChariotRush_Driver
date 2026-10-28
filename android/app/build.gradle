@@ -1,0 +1,107 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id 'com.google.gms.google-services'
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace 'com.chariotrush.driver'
+    compileSdk = 36
+    ndkVersion = "28.0.12433566"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // Use VERSION_17 for now
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
+    }
+
+    kotlinOptions {
+        jvmTarget = "17" // Kotlin's maximum JVM target is 20, so use a supported version
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.chariotrush.driver"
+        minSdkVersion 24
+        multiDexEnabled = true
+        targetSdkVersion 36
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.release
+
+        }
+    }
+}
+configurations.all {
+    exclude group: "com.google.mlkit", module: "barcode-scanning"
+    // Add exclusion to ensure old PayPal SDK is not included
+    exclude group: 'com.paypal.android.sdk', module: 'data-collector'
+    // Strong PayPal removal
+    exclude group: 'com.paypal.android.sdk'
+    exclude group: 'com.paypal.sdk'
+    exclude group: 'com.paypal.pyplcheckout'
+    exclude group: 'com.braintreepayments'
+}
+
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+    implementation platform('com.google.firebase:firebase-bom:33.2.0')
+    implementation 'androidx.multidex:multidex:2.0.1'
+    //implementation 'io.card:android-sdk:5.5.1'
+   // implementation 'com.braintreepayments.api:data-collector:4.31.0'
+}

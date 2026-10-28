@@ -1,0 +1,247 @@
+{
+  "project_info": {
+    "project_number": "336004314009",
+    "firebase_url": "https://chariot-rush-default-rtdb.firebaseio.com",
+    "project_id": "chariot-rush",
+    "storage_bucket": "chariot-rush.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336004314009:android:1213da5b2f5ba4d9cfd908",
+        "android_client_info": {
+          "package_name": "com.chariotrush.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336004314009-2v83cj4efm854s3qsl1tp22h15oce0lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "c64e08460471b7064b6b88989a5a5cd5aedefb23"
+          }
+        },
+        {
+          "client_id": "336004314009-3v6l5jin1nlfnemusocjs8enfp50v2vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "fac44db53fbd359528d072a82a2e520e9e962c6f"
+          }
+        },
+        {
+          "client_id": "336004314009-6vfnf219cnnr2uoli97avk5ccons4o3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "5d7c7e88bc68672fc8c95841f1f90a8f6627c34e"
+          }
+        },
+        {
+          "client_id": "336004314009-7l5ui0dvn5ijjvqem63uhahp6ua9l1pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "2b5a8f8ffc3ae73b99ae001039bf822ec7dc3c0e"
+          }
+        },
+        {
+          "client_id": "336004314009-ib8ilectfubneqdjp0te6clebllissmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "a9652cbe9aa58716d16b8288d9940b8e0c01868b"
+          }
+        },
+        {
+          "client_id": "336004314009-pg5nv6db84l4t8cglnf9r373mnhudtfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "5e5939a02964fff14b68c533f6d98d0cee50a880"
+          }
+        },
+        {
+          "client_id": "336004314009-q1626jhucdgl9vjiva3imbebjp75rtkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.customer",
+            "certificate_hash": "485faafafe99e3958975de177182d28f622b3ec4"
+          }
+        },
+        {
+          "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLCQ9vhoZ_Xy_2s4iBGFrMSMHWbnwga14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "336004314009-b5jv35legiljong4ou9ddh2easc2aj23.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chariotrush.store"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336004314009:android:e8141a5436f8d787cfd908",
+        "android_client_info": {
+          "package_name": "com.chariotrush.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336004314009-bas057vprttjisi954ej42f3baggi6f9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.driver",
+            "certificate_hash": "c64e08460471b7064b6b88989a5a5cd5aedefb23"
+          }
+        },
+        {
+          "client_id": "336004314009-i2n8niij0k5j0h0iaj5ltftvvifnhrg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.driver",
+            "certificate_hash": "485faafafe99e3958975de177182d28f622b3ec4"
+          }
+        },
+        {
+          "client_id": "336004314009-p030ktarsq2tol788ahfmt0al09rtf8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.driver",
+            "certificate_hash": "a9652cbe9aa58716d16b8288d9940b8e0c01868b"
+          }
+        },
+        {
+          "client_id": "336004314009-q6vqjrjsc79v5590sem6kkurbk2mph7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.driver",
+            "certificate_hash": "5e5939a02964fff14b68c533f6d98d0cee50a880"
+          }
+        },
+        {
+          "client_id": "336004314009-u1q92qq9gql6gv1n7bh63j02q4hlst9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.driver",
+            "certificate_hash": "424046c6131cb7269f02aed9ea223ad66f967253"
+          }
+        },
+        {
+          "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLCQ9vhoZ_Xy_2s4iBGFrMSMHWbnwga14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "336004314009-b5jv35legiljong4ou9ddh2easc2aj23.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chariotrush.store"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336004314009:android:b87515c4a6fae881cfd908",
+        "android_client_info": {
+          "package_name": "com.chariotrush.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336004314009-6jblehv4k2arll1kpdlivill9okq8dav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.store",
+            "certificate_hash": "a9652cbe9aa58716d16b8288d9940b8e0c01868b"
+          }
+        },
+        {
+          "client_id": "336004314009-abu78ind5401o5uh1c2umr16g7chidqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.store",
+            "certificate_hash": "c64e08460471b7064b6b88989a5a5cd5aedefb23"
+          }
+        },
+        {
+          "client_id": "336004314009-cpaqvuuvmai944thv0atl0kdvv6lghvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.store",
+            "certificate_hash": "c429dbb546a752cafd788355bc64ce582710fa12"
+          }
+        },
+        {
+          "client_id": "336004314009-r9qsqr2cr56om58fpcbb5qri58du9iqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chariotrush.store",
+            "certificate_hash": "5e5939a02964fff14b68c533f6d98d0cee50a880"
+          }
+        },
+        {
+          "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLCQ9vhoZ_Xy_2s4iBGFrMSMHWbnwga14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336004314009-klol4ouvqeo6nhfnq0j2gm6shjq4771j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "336004314009-b5jv35legiljong4ou9ddh2easc2aj23.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chariotrush.store"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
